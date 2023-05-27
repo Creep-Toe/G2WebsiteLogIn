@@ -50,6 +50,7 @@ form {
     position: relative;
     width: 400px;
     height: 450px;
+    border-width: 7.5px;;
     border-radius: 15px;
     border-style: solid;
     border-color:#AA5656;
@@ -65,7 +66,7 @@ form {
 .inputBox input {
     position: relative;
     width: 100%;
-    padding: 20px 10px 10px;
+    padding: 30px 10px 10px;
     background: transparent;
     outline: none;
     box-shadow: none;
@@ -74,7 +75,6 @@ form {
     font-size: 1em;
     letter-spacing: 0.05em;
     transition: 0.5s;
-    z-index: 10;
 }
 
 .inputBox span {
@@ -108,11 +108,6 @@ form {
     z-index: 10px;
 }
 
-inputBox input:valid ~ i,
-inputBox input:focus ~ i {
-    height: 45px;
-}
-
 .links {
     display: flex;
     justify-content: space-between;
@@ -122,10 +117,5 @@ inputBox input:focus ~ i {
     margin: 30px 0;
     font-size: .75em;
     color: #AA5656;
-    text-decoration: beige;
-}
-
-.links a:hover,
-.links a:nth-child(2) {
-    color: #AA5656;
+    text-decoration: none;
 }
