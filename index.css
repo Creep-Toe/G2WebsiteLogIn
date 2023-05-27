@@ -8,14 +8,13 @@ body {
 
 h2 {
     color: #AA5656;
-    font-weight: 500;
+    font-weight: 750;
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 }
 
 form {
     position: absolute;
-    inset: 2px;
     padding: 50px 50px;
     border-radius: 5px;
 }
@@ -25,7 +24,7 @@ input[type="submit"] {
     border-radius: 5px;
     outline: none;
     padding: 12.5px 25px;
-    background: #B99B6B;
+    background: #698269;;
     cursor: pointer;
     font-weight: 600;
     width: 100px;
@@ -38,7 +37,7 @@ input[type="submit"] {
     position: relative;
     width: 400px;
     height: 450px;
-    border-radius: 5px;
+    border-radius: 10px;
     border-style: solid;
     border-color:#AA5656;
     margin-top: 100px;
@@ -68,19 +67,18 @@ input[type="submit"] {
 .inputBox span {
     position: absolute;
     left: 0;
-    padding: 20px 0px 10px;
     pointer-events: none;
     font-size: 1em;
     color: #AA5656;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
+    letter-spacing: 0.075em;
+    transition: .5s;
 }
 
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span {
-    color: #F1DBBF;
-    transform: translateX(0px) translateY(-35px);
-    font-size: 0.75em;
+    color: #698269;
+    transform: translateX(0px) translateY(-50px);
+    font-size: 0.85em;
 }
 
 .inputBox i {
@@ -108,7 +106,7 @@ inputBox input:focus ~ i {
 }
 
 .links a {
-    margin: 10px 0;
+    margin: 30px 0;
     font-size: .75em;
     color: #AA5656;
     text-decoration: beige;
