@@ -31,6 +31,20 @@ form {
     text-decoration: none;
 }
 
+.leftContainer {
+  overflow: hidden;
+  position: fixed;
+  width: 60%;
+  height: 100%;
+}
+
+.rightContainer {
+  overflow: hidden;
+  position: fixed;
+  width: 40%;
+  height: 100%;
+}
+
 .container {
     overflow: hidden;
     position: relative;
