@@ -2,8 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fefefe;
+  
   font-family: 'Poppins', sans-serif;
+  background: url(images/LogInImg.png);
+  background-repeat: no-repeat;
+  background-position-x: 100px;
+  background-position-y: 150px;
+  background-size: 769.5px 1152px;
+  background-color: #698269;
 }
 
 h2 {
@@ -15,36 +21,13 @@ h2 {
 
 form {
     position: absolute;
-    padding: 20px 50px;
+    padding: 50px 50px;
     border-radius: 5px;
-}
-
-img {
-    scale: 1;
-}
-
-#bg {
-  background: url(images/LogInImg.png);
-  background-repeat: no-repeat;
-  padding: 10px;
-}
-
-.btn {
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-weight: 600;
-    background: #698269;;
-    color: #FFF;
-    text-decoration: none;
 }
 
 .mainContainer {
     width: 100%;
-    display: flex;
-    
+    display: flex;    
 }
 
 .leftContainer {
@@ -68,18 +51,19 @@ img {
     border-style: solid;
     border-color:#AA5656;
     margin-top: 100px;
+    background-color: #fefefe;
 }
 
 .inputBox {
     position: relative;
     width: 300px;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .inputBox input {
     position: relative;
     width: 100%;
-    padding: 30px 10px 10px;
+    padding: 10px 0px 5px 0px;
     background: transparent;
     outline: none;
     box-shadow: none;
@@ -87,7 +71,6 @@ img {
     color: #AA5656;
     font-size: 1em;
     letter-spacing: 0.05em;
-    transition: 0.5s;
 }
 
 .inputBox span {
@@ -103,7 +86,7 @@ img {
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span {
     color: #698269;
-    transform: translateX(0px) translateY(-50px);
+    transform: translateX(0px) translateY(-10px);
     font-size: 0.85em;
 }
 
@@ -124,12 +107,24 @@ img {
 .links {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .links a {
-    margin: 40px 0;
+    margin: 30px 0;
     font-size: .75em;
     color: #AA5656;
     text-decoration: none;
-    margin-bottom: 60px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: 600;
+    background: #698269;;
+    color: #FFF;
+    text-decoration: none;
 }
