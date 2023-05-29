@@ -6,8 +6,8 @@ body {
   font-family: 'Poppins', sans-serif;
   background: url(images/LogInImg.png);
   background-repeat: no-repeat;
-  background-position-x: 100px;
-  background-position-y: 150px;
+  background-position-x: 75px;
+  background-position-y: 100px;
   background-size: 769.5px 1152px;
   background-color: #698269;
 }
@@ -46,7 +46,7 @@ form {
     position: relative;
     width: 400px;
     height: 450px;
-    border-width: 7.5px;;
+    border-width: 7.5px;
     border-radius: 15px;
     border-style: solid;
     border-color:#AA5656;
@@ -124,7 +124,7 @@ form {
     padding: 15px 30px;
     cursor: pointer;
     font-weight: 600;
-    background: #698269;;
-    color: #FFF;
+    background: #698269;
+    color: #FFFFFF;
     text-decoration: none;
 }
