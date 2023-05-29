@@ -21,19 +21,22 @@ form {
 
 .mainContainer {
     width: 100%;
-    display: flex;    
+    display: flex;
+    background-color: #FFFFFF;
 }
 
 .leftContainer {
     float: left;
     width: 50%;
     height: 100%;
+    background-color: #FFFFFF;
 }
 
 .rightContainer {
     float: right;
     width: 50%;
     height: 100%;
+    background-color: #698269;
 }
 
 .container {
