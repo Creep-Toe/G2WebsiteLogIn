@@ -6,9 +6,8 @@ body {
   font-family: 'Poppins', sans-serif;
   background: url(images/Background.jpg);
   background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
-  background-size: auto auto;
+  background-attachment: fixed;  
+  background-size: cover;
   background-color: #698269;
 }
 
