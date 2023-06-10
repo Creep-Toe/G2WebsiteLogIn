@@ -4,11 +4,11 @@ body {
   box-sizing: border-box;
   
   font-family: 'Poppins', sans-serif;
-  background: url(images/LogInImg.png);
+  background: url(images/Background.jpg);
   background-repeat: no-repeat;
-  background-position-x: 75px;
-  background-position-y: 100px;
-  background-size: 769.5px 1152px;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: auto auto;
   background-color: #698269;
 }
 
